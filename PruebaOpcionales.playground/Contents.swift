@@ -26,6 +26,6 @@ print(c)
 }else{
 print("no hay dato")
 }
-//operador de coalescencia nil, si tiene dato lo asigna, si no asigna la variable del otro lao del ??
+//operador de coalescencia nil, si tiene dato lo asigna, si no, asigna la variable del otro lado del ??
 var numeroConvertido = convertedNumber ?? 10000
 print(numeroConvertido)
