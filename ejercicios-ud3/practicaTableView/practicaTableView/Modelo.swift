@@ -26,4 +26,9 @@ class Modelo: NSObject {
     func eliminarTarea(tarea:Tarea){        
     tareas.remove(at: tareas.index(of: tarea)!)
     }
+    
+    func reordenarTareas(from:Int, to:Int){
+    tareas.insert(tareas.remove(at: from), at: to)//inserto en la posición de destino el elemento que he borrado de la posición de origen
+            
+    }
 }

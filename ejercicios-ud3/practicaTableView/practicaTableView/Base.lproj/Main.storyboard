@@ -28,14 +28,8 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zgl-fz-Lf1">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kiR-DY-yH3">
-                                                <rect key="frame" x="0.0" y="0.0" width="43.5" height="30"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A1D-ev-asa">
-                                                <rect key="frame" x="43.5" y="0.0" width="299.5" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Título" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A1D-ev-asa">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -45,14 +39,8 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JYr-E6-vir">
                                         <rect key="frame" x="0.0" y="33" width="343" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iO8-Px-d1B">
-                                                <rect key="frame" x="0.0" y="0.0" width="91.5" height="30"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iyv-DU-bH9">
-                                                <rect key="frame" x="91.5" y="0.0" width="251.5" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Descripción" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iyv-DU-bH9">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -61,23 +49,21 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BR1-0I-FT9">
-                                <rect key="frame" x="159" y="318.5" width="56" height="30"/>
-                                <state key="normal" title="Guardar"/>
-                                <connections>
-                                    <segue destination="6n9-S7-Hhg" kind="unwind" unwindAction="saveTareaDetailWithSegue:" id="K0Q-RR-T6R"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="BR1-0I-FT9" firstAttribute="centerX" secondItem="EcE-Kf-WOn" secondAttribute="centerX" id="EOK-ND-dEn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lX1-pp-ohk" secondAttribute="trailing" id="P4m-YU-Gfb"/>
                             <constraint firstItem="lX1-pp-ohk" firstAttribute="top" secondItem="Vha-R7-SDA" secondAttribute="bottom" constant="3" id="Y7G-GM-l3i"/>
                             <constraint firstItem="lX1-pp-ohk" firstAttribute="leading" secondItem="EcE-Kf-WOn" secondAttribute="leadingMargin" id="gDK-R8-gFJ"/>
-                            <constraint firstItem="BR1-0I-FT9" firstAttribute="centerY" secondItem="EcE-Kf-WOn" secondAttribute="centerY" id="iUt-wb-mT3"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Añadir" id="rNU-bp-A7b">
+                        <barButtonItem key="rightBarButtonItem" title="Guardar" id="PBI-EV-3rA">
+                            <connections>
+                                <segue destination="6n9-S7-Hhg" kind="unwind" unwindAction="saveTareaDetailWithSegue:" id="QKd-4D-htg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="descTextField" destination="Iyv-DU-bH9" id="iqK-or-007"/>
                         <outlet property="tituloTextField" destination="A1D-ev-asa" id="zUB-Cl-hLv"/>
@@ -104,16 +90,10 @@
                                 <rect key="frame" x="16" y="67" width="343" height="63"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U1B-uD-aim">
-                                        <rect key="frame" x="0.0" y="0.0" width="342.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8RC-fM-jng">
-                                                <rect key="frame" x="0.0" y="0.0" width="43.5" height="30"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KSg-1c-ozd">
-                                                <rect key="frame" x="43.5" y="0.0" width="299" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Título" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KSg-1c-ozd">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -121,16 +101,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ENV-Ls-28t">
-                                        <rect key="frame" x="0.0" y="33" width="342.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="33" width="343" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hp9-UH-HAx">
-                                                <rect key="frame" x="0.0" y="0.0" width="91.5" height="30"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tEF-9m-IG0">
-                                                <rect key="frame" x="91.5" y="0.0" width="251" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Descripción" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tEF-9m-IG0">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -146,26 +120,22 @@
                                     <constraint firstItem="ENV-Ls-28t" firstAttribute="leading" secondItem="DLY-PG-pTW" secondAttribute="leading" id="gKs-e5-JVo"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPP-Zo-jsf">
-                                <rect key="frame" x="161.5" y="318.5" width="51" height="29"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <state key="normal" title="Eliminar">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="g5S-WE-dVx" kind="unwind" identifier="eraseTareaDetail" unwindAction="eraseTareaDetailWithSegue:" id="rky-4a-tTH"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="DLY-PG-pTW" secondAttribute="trailing" id="0lq-zf-487"/>
                             <constraint firstItem="DLY-PG-pTW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="3" id="5Pl-a9-ppu"/>
-                            <constraint firstItem="JPP-Zo-jsf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G1J-wX-Ac6"/>
                             <constraint firstItem="DLY-PG-pTW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="UUq-5I-MEM"/>
-                            <constraint firstItem="JPP-Zo-jsf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zHQ-eD-OnO"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Detalle" id="Gsu-l7-v5l">
+                        <barButtonItem key="rightBarButtonItem" title="Eliminar" id="mFE-nj-1aJ">
+                            <color key="tintColor" red="0.80641690939999999" green="0.0" blue="0.1060993522" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="g5S-WE-dVx" kind="unwind" unwindAction="eraseTareaDetailWithSegue:" id="Jp3-26-fLJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="descTExtField" destination="tEF-9m-IG0" id="lBo-uZ-46Z"/>
                         <outlet property="tituloTExtField" destination="KSg-1c-ozd" id="plD-gL-Q5E"/>
@@ -196,7 +166,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NjR-cP-BbM" id="F3z-q6-qbs">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCL-4l-4Fg">

@@ -10,7 +10,7 @@ import UIKit
 
 class aniadirViewController: UIViewController {
     
-    var mod:Modelo?
+    var mod:Modelo!
     var tarea=Tarea()
     
   
@@ -21,14 +21,16 @@ class aniadirViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
     
-    func crearTarea(){
+    func crearTarea(){//creamos la tarea y la añadimos al array del modelo
 
         if let textoTitulo=tituloTextField.text{
             tarea.titulo = textoTitulo

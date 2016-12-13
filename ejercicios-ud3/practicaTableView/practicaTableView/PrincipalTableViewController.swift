@@ -24,8 +24,10 @@ class PrincipalTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        mod.crearTarea(titulo: "tareaPrueba", descripcion: "descripción de la tarea de prueba")
+        mod.crearTarea(titulo: "unaTareaPrueba", descripcion: "descripción de la tarea de prueba")
         contadorTareas.text="nº tareas: \(mod.tareas.count)"
+        //Botón para editar
+        self.navigationItem.leftBarButtonItem = self.editButtonItem
      
     }
 
@@ -57,21 +59,18 @@ class PrincipalTableViewController: UITableViewController {
         cell.tarea=mod.tareas[cell.id!]
         cell.etiqueta.text=cell.tarea?.titulo
         cell.mod=mod
-        cell.principal=self
+        cell.principal=self 
         return cell
     }
-    // el unwin debe estar en el controller destino
+    // el unwin debe estar en el controller destino (viene desde vista añadir)
     @IBAction func saveTareaDetail(segue:UIStoryboardSegue) {
         dibujarTabla()
-        
     }
-    
+    //unwin para eliminar (viene desde vista detalle)
     @IBAction func eraseTareaDetail(segue:UIStoryboardSegue) {
-        
        dibujarTabla()
-        
     }
-    
+    //Función para recargar la tabla el contador de tareas
     func dibujarTabla(){
         tableView.reloadData()
         contadorTareas.text="nº tareas: \(mod.tareas.count)"
@@ -85,26 +84,32 @@ class PrincipalTableViewController: UITableViewController {
         // Return false if you do not want the specified item to be editable.
         return true
     }
-    */
-
-    /*
+ 
+*/
+    
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
+            
             // Delete the row from the data source
+            mod.tareas.remove(at: indexPath.row)//Borramos antes de eliminar filas del tableview, si no, casca
             tableView.deleteRows(at: [indexPath], with: .fade)
+            dibujarTabla() // por actualizar el número de tareas
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
+    
 
-    /*
+        
+        
     // Override to support rearranging the table view.
     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
+        mod.reordenarTareas(from: fromIndexPath.row, to: to.row)
+        dibujarTabla()
 
     }
-    */
+    
 
     /*
     // Override to support conditional rearranging of the table view.
@@ -124,14 +129,14 @@ class PrincipalTableViewController: UITableViewController {
         
         if( segue.identifier == "segueAniadir") {
             let destino = segue.destination as! aniadirViewController           
-            destino.mod=mod
+            destino.mod=mod //pasamos la referencia del modelo a la vista añadir
         }
         if( segue.identifier == "segueDetalle") {
             let destino = segue.destination as! ViewController
             let emisor = sender as! MiCeldaTableViewCell
             //destino.tarea=mod.tareas[emisor.id!]
-            destino.tarea=emisor.tarea
-            destino.mod=mod
+            destino.tarea=emisor.tarea //pasamos a la vista detalle la tarea desde la celda emisor
+            destino.mod=mod            //tambien pasamos el modelo, por si la eliminamos desde allíu
         }
 
     }
