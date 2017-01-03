@@ -21,7 +21,7 @@ class ViewController: UIViewController {
             
             if let respuesta = response.result.value {
                 print("JSON: \(respuesta)")
-                json=JSON(response.result.value)
+                json=JSON(response.result.value as Any)
             }
             if let text = json["quoteText"].string{
                 self.textoFrase.text=text
@@ -38,35 +38,47 @@ class ViewController: UIViewController {
             }
             
             
-                }
-  /*      Alamofire.request("http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en").responseJSON { response in
-            print(response.request)  // original URL request
-            print(response.response) // HTTP URL response
-            print(response.data)     // server data
-            print(response.result)   // result of response serialization
-            
-            if let JSON = response.result.value {
-                print("JSON: \(JSON)")
-            }
-        }*/
+        }
+        
+        
+        /*      Alamofire.request("http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en").responseJSON { response in
+         print(response.request)  // original URL request
+         print(response.response) // HTTP URL response
+         print(response.data)     // server data
+         print(response.result)   // result of response serialization
+         
+         if let JSON = response.result.value {
+         print("JSON: \(JSON)")
+         }
+         }*/
     }
-
-    @IBOutlet weak var textoFrase: UITextField!
+    
     
     @IBOutlet weak var textoAutor: UITextField!
     
+    @IBOutlet weak var textoFrase: UITextView!
     
+    @IBOutlet weak var button: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-  
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        //https://grokswift.com/transparent-table-view/
+        //http://stackoverflow.com/questions/25106784/how-to-set-a-background-image-as-colorwithpatternimage-in-swift
+        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        backgroundImage.image = UIImage(named: "pergamino.gif")
+        self.view.insertSubview(backgroundImage, at: 0)    }
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    
 }
 

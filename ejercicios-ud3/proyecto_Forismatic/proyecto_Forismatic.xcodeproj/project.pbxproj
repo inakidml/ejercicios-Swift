@@ -12,6 +12,8 @@
 		2C295AB91E1AD74800475534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C295AB71E1AD74800475534 /* Main.storyboard */; };
 		2C295ABB1E1AD74800475534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C295ABA1E1AD74800475534 /* Assets.xcassets */; };
 		2C295ABE1E1AD74800475534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C295ABC1E1AD74800475534 /* LaunchScreen.storyboard */; };
+		2CD818F21E1C332500B18C03 /* pergamino.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2CD818F11E1C332500B18C03 /* pergamino.gif */; };
+		2CD818F41E1C3FA900B18C03 /* BotonConBorde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD818F31E1C3FA900B18C03 /* BotonConBorde.swift */; };
 		AA840E29DA921A763F4A3F52 /* Pods_proyecto_Forismatic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0214FF55AD10EE7DE34CB0 /* Pods_proyecto_Forismatic.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 		2C295ABA1E1AD74800475534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C295ABD1E1AD74800475534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C295ABF1E1AD74800475534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD818F11E1C332500B18C03 /* pergamino.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pergamino.gif; sourceTree = "<group>"; };
+		2CD818F31E1C3FA900B18C03 /* BotonConBorde.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotonConBorde.swift; sourceTree = "<group>"; };
 		56DFA0DD1D2EB501A8B04CB8 /* Pods-proyecto_Forismatic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proyecto_Forismatic.release.xcconfig"; path = "Pods/Target Support Files/Pods-proyecto_Forismatic/Pods-proyecto_Forismatic.release.xcconfig"; sourceTree = "<group>"; };
 		5A0214FF55AD10EE7DE34CB0 /* Pods_proyecto_Forismatic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_proyecto_Forismatic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D3C8CDB5582D83A8DBB996 /* Pods-proyecto_Forismatic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proyecto_Forismatic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-proyecto_Forismatic/Pods-proyecto_Forismatic.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 		2C295AB21E1AD74800475534 /* proyecto_Forismatic */ = {
 			isa = PBXGroup;
 			children = (
+				2CD818F31E1C3FA900B18C03 /* BotonConBorde.swift */,
+				2CD818F11E1C332500B18C03 /* pergamino.gif */,
 				2C295AB31E1AD74800475534 /* AppDelegate.swift */,
 				2C295AB51E1AD74800475534 /* ViewController.swift */,
 				2C295AB71E1AD74800475534 /* Main.storyboard */,
@@ -151,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD818F21E1C332500B18C03 /* pergamino.gif in Resources */,
 				2C295ABE1E1AD74800475534 /* LaunchScreen.storyboard in Resources */,
 				2C295ABB1E1AD74800475534 /* Assets.xcassets in Resources */,
 				2C295AB91E1AD74800475534 /* Main.storyboard in Resources */,
@@ -214,6 +221,7 @@
 			files = (
 				2C295AB61E1AD74800475534 /* ViewController.swift in Sources */,
 				2C295AB41E1AD74800475534 /* AppDelegate.swift in Sources */,
+				2CD818F41E1C3FA900B18C03 /* BotonConBorde.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
