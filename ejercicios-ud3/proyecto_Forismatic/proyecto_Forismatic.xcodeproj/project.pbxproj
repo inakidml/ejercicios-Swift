@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C295AB41E1AD74800475534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C295AB31E1AD74800475534 /* AppDelegate.swift */; };
+		2C295AB61E1AD74800475534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C295AB51E1AD74800475534 /* ViewController.swift */; };
+		2C295AB91E1AD74800475534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C295AB71E1AD74800475534 /* Main.storyboard */; };
+		2C295ABB1E1AD74800475534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C295ABA1E1AD74800475534 /* Assets.xcassets */; };
+		2C295ABE1E1AD74800475534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C295ABC1E1AD74800475534 /* LaunchScreen.storyboard */; };
+		AA840E29DA921A763F4A3F52 /* Pods_proyecto_Forismatic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0214FF55AD10EE7DE34CB0 /* Pods_proyecto_Forismatic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C295AB01E1AD74800475534 /* proyecto_Forismatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proyecto_Forismatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C295AB31E1AD74800475534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C295AB51E1AD74800475534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C295AB81E1AD74800475534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C295ABA1E1AD74800475534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C295ABD1E1AD74800475534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C295ABF1E1AD74800475534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DFA0DD1D2EB501A8B04CB8 /* Pods-proyecto_Forismatic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proyecto_Forismatic.release.xcconfig"; path = "Pods/Target Support Files/Pods-proyecto_Forismatic/Pods-proyecto_Forismatic.release.xcconfig"; sourceTree = "<group>"; };
+		5A0214FF55AD10EE7DE34CB0 /* Pods_proyecto_Forismatic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_proyecto_Forismatic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D3C8CDB5582D83A8DBB996 /* Pods-proyecto_Forismatic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proyecto_Forismatic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-proyecto_Forismatic/Pods-proyecto_Forismatic.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C295AAD1E1AD74800475534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA840E29DA921A763F4A3F52 /* Pods_proyecto_Forismatic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C295AA71E1AD74700475534 = {
+			isa = PBXGroup;
+			children = (
+				2C295AB21E1AD74800475534 /* proyecto_Forismatic */,
+				2C295AB11E1AD74800475534 /* Products */,
+				8A14CEB19FF750A1AF743AC9 /* Pods */,
+				E66CAEAE83088CC5A4B25110 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C295AB11E1AD74800475534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C295AB01E1AD74800475534 /* proyecto_Forismatic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C295AB21E1AD74800475534 /* proyecto_Forismatic */ = {
+			isa = PBXGroup;
+			children = (
+				2C295AB31E1AD74800475534 /* AppDelegate.swift */,
+				2C295AB51E1AD74800475534 /* ViewController.swift */,
+				2C295AB71E1AD74800475534 /* Main.storyboard */,
+				2C295ABA1E1AD74800475534 /* Assets.xcassets */,
+				2C295ABC1E1AD74800475534 /* LaunchScreen.storyboard */,
+				2C295ABF1E1AD74800475534 /* Info.plist */,
+			);
+			path = proyecto_Forismatic;
+			sourceTree = "<group>";
+		};
+		8A14CEB19FF750A1AF743AC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8D3C8CDB5582D83A8DBB996 /* Pods-proyecto_Forismatic.debug.xcconfig */,
+				56DFA0DD1D2EB501A8B04CB8 /* Pods-proyecto_Forismatic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E66CAEAE83088CC5A4B25110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A0214FF55AD10EE7DE34CB0 /* Pods_proyecto_Forismatic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C295AAF1E1AD74800475534 /* proyecto_Forismatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C295AC21E1AD74800475534 /* Build configuration list for PBXNativeTarget "proyecto_Forismatic" */;
+			buildPhases = (
+				93C006C3047BD1593D9A8EEE /* [CP] Check Pods Manifest.lock */,
+				2C295AAC1E1AD74800475534 /* Sources */,
+				2C295AAD1E1AD74800475534 /* Frameworks */,
+				2C295AAE1E1AD74800475534 /* Resources */,
+				8EC86EE78585B3D0F6BD6B28 /* [CP] Embed Pods Frameworks */,
+				E7D7EBAFD43B49C838AE8DF8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = proyecto_Forismatic;
+			productName = proyecto_Forismatic;
+			productReference = 2C295AB01E1AD74800475534 /* proyecto_Forismatic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C295AA81E1AD74700475534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Iñaki Diaz";
+				TargetAttributes = {
+					2C295AAF1E1AD74800475534 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P699U76UF9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C295AAB1E1AD74700475534 /* Build configuration list for PBXProject "proyecto_Forismatic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C295AA71E1AD74700475534;
+			productRefGroup = 2C295AB11E1AD74800475534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C295AAF1E1AD74800475534 /* proyecto_Forismatic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C295AAE1E1AD74800475534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C295ABE1E1AD74800475534 /* LaunchScreen.storyboard in Resources */,
+				2C295ABB1E1AD74800475534 /* Assets.xcassets in Resources */,
+				2C295AB91E1AD74800475534 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EC86EE78585B3D0F6BD6B28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-proyecto_Forismatic/Pods-proyecto_Forismatic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C006C3047BD1593D9A8EEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7D7EBAFD43B49C838AE8DF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-proyecto_Forismatic/Pods-proyecto_Forismatic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C295AAC1E1AD74800475534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C295AB61E1AD74800475534 /* ViewController.swift in Sources */,
+				2C295AB41E1AD74800475534 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C295AB71E1AD74800475534 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C295AB81E1AD74800475534 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C295ABC1E1AD74800475534 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C295ABD1E1AD74800475534 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C295AC01E1AD74800475534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C295AC11E1AD74800475534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C295AC31E1AD74800475534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D3C8CDB5582D83A8DBB996 /* Pods-proyecto_Forismatic.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P699U76UF9;
+				INFOPLIST_FILE = proyecto_Forismatic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bid.inaki.proyecto-Forismatic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C295AC41E1AD74800475534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DFA0DD1D2EB501A8B04CB8 /* Pods-proyecto_Forismatic.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P699U76UF9;
+				INFOPLIST_FILE = proyecto_Forismatic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bid.inaki.proyecto-Forismatic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C295AAB1E1AD74700475534 /* Build configuration list for PBXProject "proyecto_Forismatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C295AC01E1AD74800475534 /* Debug */,
+				2C295AC11E1AD74800475534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C295AC21E1AD74800475534 /* Build configuration list for PBXNativeTarget "proyecto_Forismatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C295AC31E1AD74800475534 /* Debug */,
+				2C295AC41E1AD74800475534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C295AA81E1AD74700475534 /* Project object */;
+}

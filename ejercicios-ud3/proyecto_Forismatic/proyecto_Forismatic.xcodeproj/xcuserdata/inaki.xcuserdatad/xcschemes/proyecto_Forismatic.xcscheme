@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F9AF9EA1DEE21C00093B454"
-               BuildableName = "practicaTableView.app"
-               BlueprintName = "practicaTableView"
-               ReferencedContainer = "container:practicaTableView.xcodeproj">
+               BlueprintIdentifier = "2C295AAF1E1AD74800475534"
+               BuildableName = "proyecto_Forismatic.app"
+               BlueprintName = "proyecto_Forismatic"
+               ReferencedContainer = "container:proyecto_Forismatic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F9AF9EA1DEE21C00093B454"
-            BuildableName = "practicaTableView.app"
-            BlueprintName = "practicaTableView"
-            ReferencedContainer = "container:practicaTableView.xcodeproj">
+            BlueprintIdentifier = "2C295AAF1E1AD74800475534"
+            BuildableName = "proyecto_Forismatic.app"
+            BlueprintName = "proyecto_Forismatic"
+            ReferencedContainer = "container:proyecto_Forismatic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F9AF9EA1DEE21C00093B454"
-            BuildableName = "practicaTableView.app"
-            BlueprintName = "practicaTableView"
-            ReferencedContainer = "container:practicaTableView.xcodeproj">
+            BlueprintIdentifier = "2C295AAF1E1AD74800475534"
+            BuildableName = "proyecto_Forismatic.app"
+            BlueprintName = "proyecto_Forismatic"
+            ReferencedContainer = "container:proyecto_Forismatic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F9AF9EA1DEE21C00093B454"
-            BuildableName = "practicaTableView.app"
-            BlueprintName = "practicaTableView"
-            ReferencedContainer = "container:practicaTableView.xcodeproj">
+            BlueprintIdentifier = "2C295AAF1E1AD74800475534"
+            BuildableName = "proyecto_Forismatic.app"
+            BlueprintName = "proyecto_Forismatic"
+            ReferencedContainer = "container:proyecto_Forismatic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

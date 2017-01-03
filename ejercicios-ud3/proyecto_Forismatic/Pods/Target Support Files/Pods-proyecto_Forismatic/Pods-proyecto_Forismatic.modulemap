@@ -1,0 +1,6 @@
+framework module Pods_proyecto_Forismatic {
+  umbrella header "Pods-proyecto_Forismatic-umbrella.h"
+
+  export *
+  module * { export * }
+}

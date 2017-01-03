@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F9AF9EA1DEE21C00093B454"
-               BuildableName = "practicaTableView.app"
-               BlueprintName = "practicaTableView"
-               ReferencedContainer = "container:practicaTableView.xcodeproj">
+               BlueprintIdentifier = "94B6FFCA61CBDD18497093FEBC8B7663"
+               BuildableName = "Pods_proyecto_Forismatic.framework"
+               BlueprintName = "Pods-proyecto_Forismatic"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F9AF9EA1DEE21C00093B454"
-            BuildableName = "practicaTableView.app"
-            BlueprintName = "practicaTableView"
-            ReferencedContainer = "container:practicaTableView.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F9AF9EA1DEE21C00093B454"
-            BuildableName = "practicaTableView.app"
-            BlueprintName = "practicaTableView"
-            ReferencedContainer = "container:practicaTableView.xcodeproj">
+            BlueprintIdentifier = "94B6FFCA61CBDD18497093FEBC8B7663"
+            BuildableName = "Pods_proyecto_Forismatic.framework"
+            BlueprintName = "Pods-proyecto_Forismatic"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F9AF9EA1DEE21C00093B454"
-            BuildableName = "practicaTableView.app"
-            BlueprintName = "practicaTableView"
-            ReferencedContainer = "container:practicaTableView.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
