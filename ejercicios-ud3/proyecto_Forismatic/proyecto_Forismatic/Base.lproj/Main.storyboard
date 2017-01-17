@@ -34,7 +34,7 @@
                                 <size key="titleShadowOffset" width="10" height="10"/>
                                 <state key="normal" title=" Pide tu cIta ">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" patternImage="CD3381B5-369E-47E3-975F-C7DD15CBC31C" colorSpace="pattern"/>
+                                    <color key="titleShadowColor" patternImage="7399E58F-D4EA-442D-ADD2-9860A1A43DEE" colorSpace="pattern"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
@@ -93,7 +93,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="CD3381B5-369E-47E3-975F-C7DD15CBC31C" width="512" height="512">
+        <image name="7399E58F-D4EA-442D-ADD2-9860A1A43DEE" width="512" height="512">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
