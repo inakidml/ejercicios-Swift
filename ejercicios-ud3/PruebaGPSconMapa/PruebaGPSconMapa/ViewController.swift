@@ -18,6 +18,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     var contador=0
     var coordenadas = CLLocationManager().location?.coordinate
  
+ 
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,10 +42,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         //Mapas
             
             let camera = GMSCameraPosition.camera(withLatitude: (coordenadas?.latitude)!,
-                                                              longitude: (coordenadas?.longitude)!, zoom: 6)
-            let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+                                                              longitude: (coordenadas?.longitude)!, zoom: 20)
+            let mapView = GMSMapView.map(withFrame: CGRect(x: 100, y: 100, width: 200, height: 200), camera: camera)
             mapView.isMyLocationEnabled = true
-            self.view = mapView
+            
+            
+            mapView.center = self.view.center
+            
+           self.view.addSubview(mapView)
+            
             
            // let marker = GMSMarker()
            // marker.position = CLLocationCoordinate2DMake(-33.86, 151.20)
